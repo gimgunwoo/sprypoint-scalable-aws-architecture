@@ -1,6 +1,8 @@
 # Sprypoint scalable AWS architecture
 
 ## Objectives
+SpryPoint is deploying a new containerized web application that must be highly available, with the ability to scale up during peak traffic periods to maintain performance and scale down during low-traffic periods to optimize costs.
+
 Design a scalable, automated AWS architecture to host this application. The architecture should cover the entire lifecycle—from repository to production. You are free to use any tools and services that you feel will best meet the requirements. The solution should reflect AWS best practices according to the Well Architected Framework, especially for high availability, security, scalability, and cost-efficiency.
 
 ## Limitations, disclosure
