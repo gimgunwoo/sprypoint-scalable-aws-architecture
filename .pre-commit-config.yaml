@@ -1,0 +1,15 @@
+repos:
+- repo: https://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.97.3 # Get the latest version from: https://github.com/antonbabenko/pre-commit-terraform/releases
+  hooks:
+    - id: terraform_fmt
+    - id: terraform_validate
+    - id: terraform_tflint
+    - id: terraform_tfsec
+      args:
+        - >
+          --args=--config-file=__GIT_WORKING_DIR__.tfsec/local_config.yaml
+          --soft-fail
+          --format json
+          -O __GIT_WORKING_DIR__.tfsec/current_tfsec_errors.json
+    - id: terraform_docs

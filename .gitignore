@@ -1,0 +1,10 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*tfstate*
+**.idea
+
+# tfsec output file
+.tfsec/current_tfsec_errors.json
