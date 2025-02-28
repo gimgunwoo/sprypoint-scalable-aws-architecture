@@ -12,8 +12,13 @@ Design a scalable, automated AWS architecture to host this application. The arch
 
 ## Sources
 https://docs.aws.amazon.com/
+
 https://docs.aws.amazon.com/wellarchitected/
+
 https://github.com/antonbabenko/pre-commit-terraform
+
 https://github.com/terraform-aws-modules
+
 https://github.com/cloudposse/terraform-aws-waf
+
 https://www.datadoghq.com/architecture/using-datadog-with-ecs-fargate/
